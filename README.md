@@ -26,6 +26,3 @@ docker exec jenkins cat /var/jenkins_home/secrets/initialAdminPassword
 Then in Jenkins: install suggested plugins → **New Item → Pipeline** → *Pipeline script from SCM* → Git → your repo URL → branch `*/main` → script path `Jenkinsfile` → Save → **Build Now**.
 
 App URL after a successful deploy: http://localhost:3001
-
-## Screenshots
-Add Jenkins dashboard / stage view / running app screenshots in `screenshots/`.
