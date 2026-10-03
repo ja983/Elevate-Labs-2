@@ -1,0 +1,7 @@
+node_modules
+npm-debug.log
+.git
+Jenkinsfile
+jenkins
+screenshots
+README.md
